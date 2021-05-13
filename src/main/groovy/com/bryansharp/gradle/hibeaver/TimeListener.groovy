@@ -8,7 +8,9 @@ import org.gradle.api.execution.TaskExecutionListener
 import org.gradle.api.initialization.Settings
 import org.gradle.api.invocation.Gradle
 import org.gradle.api.tasks.TaskState
-import org.gradle.util.Clock
+//import org.gradle.util.Clock
+import net.rdrei.android.buildtimetracker.util.Clock
+
 
 class TimeListener implements TaskExecutionListener, BuildListener {
     private Clock clock
